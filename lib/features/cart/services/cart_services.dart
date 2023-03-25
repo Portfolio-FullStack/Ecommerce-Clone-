@@ -1,14 +1,13 @@
 import 'dart:convert';
 import 'package:ecommerce/constants/error_handling.dart';
 import 'package:ecommerce/constants/global_variables.dart';
+import 'package:ecommerce/constants/utils.dart';
 import 'package:ecommerce/models/product.dart';
 import 'package:ecommerce/models/user.dart';
 import 'package:ecommerce/providers/user_providers.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;
-
-import '../../constants/utils.dart';
 
 class CartServices {
   void removeFromCart({

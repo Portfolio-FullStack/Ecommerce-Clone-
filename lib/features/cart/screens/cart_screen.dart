@@ -1,8 +1,8 @@
-import 'package:ecommerce/cart/widgets/cart_product.dart';
-import 'package:ecommerce/cart/widgets/cart_subtotal.dart';
 import 'package:ecommerce/common/widgets/custom_button.dart';
 import 'package:ecommerce/constants/global_variables.dart';
 import 'package:ecommerce/features/address/screens/address_screen.dart';
+import 'package:ecommerce/features/cart/widgets/cart_product.dart';
+import 'package:ecommerce/features/cart/widgets/cart_subtotal.dart';
 import 'package:ecommerce/features/home/widgets/address_box.dart';
 import 'package:ecommerce/features/search/screens/search_screen.dart';
 import 'package:ecommerce/providers/user_providers.dart';
